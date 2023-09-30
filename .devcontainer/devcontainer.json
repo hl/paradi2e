@@ -16,7 +16,15 @@
 		4001
 	],
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": ".devcontainer/bin/postCreateCommand.sh"
+	"postCreateCommand": ".devcontainer/bin/postCreateCommand.sh",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"phoenixframework.phoenix",
+				"JakeBecker.elixir-ls"
+			]
+		}
+	}
 	// Configure tool-specific properties.
 	// "customizations": {},
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
